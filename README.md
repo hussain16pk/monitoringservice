@@ -15,8 +15,17 @@ In case of any interruption in the running service, it shutdowns.
 
 # Usage
 
-`java -jar healthchecker-1.0-SNAPSHOT.jar`
+`java -jar healthchecker.jar`
+`java -jar healthchecker.jar http://localhost:8080 5`
 
 # Test
 
 - The test runs the executor service for 10 seconds with 5 seconds interval and then shutdowns
+
+# Improvements
+
+- Include some more test
+
+# Question
+
+- Not sure if the cloud administrator wanted to restart the service automatically in case of any interruption.
